@@ -1,0 +1,21 @@
+{
+    "name": "roman/sistema_templates",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "scripts": {
+        "server": "php -S localhost:8000 -t public"
+    },
+    "authors": [
+        {
+            "name": "Romano Ivan Pedro",
+            "email": "romanoivanpedro@gmail.com"
+        }
+    ],
+    "require": {},
+    "config":{
+        "process-timeout": 0
+    }
+}
