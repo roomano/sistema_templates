@@ -2,10 +2,10 @@
 
 namespace app\controllers;
 
-class HomeController
+class LoginController
 {
     public function index()
     {
-        var_dump('home index');
+        var_dump('login index');
     }
 }
